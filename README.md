@@ -1,7 +1,11 @@
-<!DOCTYPE html>
+![image](https://github.com/user-attachments/assets/c5017539-90cc-4740-a8ae-30b1fdd524a4)<!DOCTYPE html>
 <html lang="en">
-<body>
   
+<body>
+  ![image](https://github.com/user-attachments/assets/4d79779a-a9ea-4042-ab4b-28fa3f671e16)
+  ![image](https://github.com/user-attachments/assets/3969a217-d556-47b1-810f-67cc9b8d6f5c)
+  ![image](https://github.com/user-attachments/assets/f3bd6b0c-80b5-42cf-bffc-19e4b8d8839b)
+
   <h1>Esthelogy Assignment</h1>
   <p>
     Welcome to the Project! This is a brief description of what the project is about.
@@ -40,9 +44,7 @@
   
   <h2 id="features">Features</h2>
   <p>
-    <ul>
-     
-    </ul>
+    
   </p>
   <hr>
   
