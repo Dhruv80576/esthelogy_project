@@ -31,7 +31,7 @@ class _LoginpageState extends State<Loginpage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(alignment:Alignment.center,child: Text('Log In',style: TextStyle(color: Colors.white,fontSize: 25,fontWeight: FontWeight.w700),)),
+            Container(alignment:Alignment.center,child: Text('Log In',style: TextStyle(color: Colors.black,fontSize: 25,fontWeight: FontWeight.w700),)),
             SizedBox(height: 10,),
             Container(
               padding: EdgeInsets.fromLTRB(10, 2, 2, 2),

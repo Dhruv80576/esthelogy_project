@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:esthelogy_project/screens/profilePage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -29,8 +30,16 @@ class _UploadImageState extends State<UploadImage> {
 
   Future<void> _takePictureWithCamera() async {
     final XFile? image = await _picker.pickImage(source: ImageSource.camera);
+    print('\n\n\n hello world');
+    print(active);
+    print('\n\n\n hello world');
+    if(_selectedImage!=null){
+      active.value--;
+    }
+
     if (image != null) {
       setState(() {
+        active.value++;
         _selectedImage = File(image.path);
       });
     }
@@ -43,12 +52,13 @@ class _UploadImageState extends State<UploadImage> {
         _takePictureWithCamera();
       },
       child: Container(
-          margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
+        height: 80,
+          margin: EdgeInsets.fromLTRB(10, 5, 10, 5),
           padding: EdgeInsets.fromLTRB(30, 10, 10, 10),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(20)),
             // gradient: LinearGradient(colors: [Colors.red, Colors.blue]),
-            color: Colors.grey
+            color: Colors.purple.shade50
           ),
           width: double.infinity,
           child: Row(
@@ -76,6 +86,7 @@ class _UploadImageState extends State<UploadImage> {
                     width: 60,
                     height: 60,
                     fit: BoxFit.cover,
+
                   ),
                 ),
             ],
