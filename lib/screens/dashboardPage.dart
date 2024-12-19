@@ -1,5 +1,5 @@
 import 'package:esthelogy_project/models/imageModel.dart';
-import 'package:esthelogy_project/utils/imageApi.dart';
+import 'package:esthelogy_project/api/imageApi.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
